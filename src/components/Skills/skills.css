@@ -1,0 +1,63 @@
+.skillContainer{
+    min-height: 100vh !important;
+}
+
+.upperBg{
+    height: 27vh !important;
+    background: var(--btnBackground);
+}
+
+
+.skillMainContainer{
+    z-index: 1;
+    margin-top: -13rem;
+    margin-left: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 70vw;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.246) 0px 0px 10px;
+    border-radius: 8px;
+}
+
+
+.skillTag{
+    font-weight: 600;
+}
+
+.skillSet li{
+    font-weight: lighter;
+}
+
+.skillData{
+    background-color: #4F4F4F;
+    border-radius: 10px;
+    width: 14.739583333333334vw;
+    height: 55vh;
+    color: white;
+}
+
+
+@media (min-width:320px) and (max-width:768px){
+    .skillContainer{
+        min-height: 100vh !important ;
+    }
+    .upperBg{
+        height: 0vh !important;
+        border: .5px solid grey;
+        background: white;
+    }
+    
+    .skillMainContainer{
+        width: 100% !important;
+        margin-top: -5rem;
+        box-shadow: none;
+        border-top: .5px solid grey;
+        border-bottom: .5px solid grey;
+        border-radius: 0px;
+    }
+
+    .skillData{
+        width: 100% !important;
+    }
+}

@@ -1,0 +1,32 @@
+.footerContainer {
+    background-color: black;
+    margin: 0;
+    /* min-height: 4vh !important; */
+    
+}
+
+.footerContainer .h4 {
+    color: white;
+    font-size: .8rem;
+
+}
+
+.fa-heart {
+    color: red;
+    text-shadow: red 0px 0px 10px;
+    animation: footerAnima 2s infinite ease-in-out;
+}
+
+@keyframes footerAnima {
+    0% {
+        text-shadow: red 0px 0px 0px;
+    }
+
+    50% {
+        text-shadow: red 0px 0px 10px;
+    }
+
+    100% {
+        text-shadow: red 0px 0px 0px;
+    }
+}

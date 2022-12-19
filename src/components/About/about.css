@@ -1,0 +1,15 @@
+.carrerContainer{
+    min-height: 100vh !important;
+}
+
+.carrerTitle{
+    font-family: 'Rochester', cursive;
+}
+
+
+@media (min-width:320px) and (max-width:768px){
+    .carrerContainer{
+        min-height: unset !important;
+        border-top: none;
+    }
+}

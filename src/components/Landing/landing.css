@@ -1,0 +1,98 @@
+.heroSection {
+    border-bottom: .2px solid black;
+}
+
+/* Left Div */
+
+.left {
+    min-height: 100vh;
+    background-color: var(--heroBackground);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.heroImg img {
+    width: 200px;
+    clip-path: circle();
+}
+
+.heroInfo .heroName {
+    font-weight: 600;
+    color: var(--heroText);
+    font-size: 2.313rem;
+}
+
+.heroInfo .heroTitle {
+    font-weight: 600;
+    color: var(--heroText);
+    font-size: 0.8125rem;
+    line-height: 8px;
+}
+
+
+
+.heroPara .p {
+    font-size: 0.875rem;
+    color: var(--heroText);
+    font-weight: 500;
+}
+
+
+.connectBtn button {
+    font-weight: 600;
+    padding: .3rem 1rem;
+    border-radius: 50px;
+    margin-top: .5rem;
+    background-color: var(--btnBackground);
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8125rem;
+}
+
+
+/* Right Div */
+.right {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.socialSlogan {
+    font-size: 2.3125rem;
+    font-weight: 600;
+}
+
+
+.socialIcon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   
+    cursor: default;
+}
+
+.socialIcon img {
+    background-color: transparent;
+    height: 3.75rem;
+    width: 3.75rem;
+}
+
+.resumeBtn button {
+    font-weight: 600;
+    font-size: 1.1rem;
+    background-color: var(--btnBackground);
+    color: white;
+    padding: .3rem 1.5rem;
+    border-radius: 50px;
+    border: none;
+    /* cursor: pointer; */
+}
+
+
+@media (min-width:320px) and (max-width:768px) {
+    .heroPara .p {
+        width: 100% !important;
+    }
+}

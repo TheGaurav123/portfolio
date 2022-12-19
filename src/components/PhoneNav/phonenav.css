@@ -1,0 +1,19 @@
+.phoneNav{
+    position: absolute;
+    left: 0%;
+    /* min-height: 30vh !important; */
+    background-color: rgba(0, 0, 0, 0.874);
+    /* background-color: #ae45ffa6 */
+}
+
+.phoneLink{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+
+}
+
+
+.linksDiv{
+    min-height: 40vh !important;
+}

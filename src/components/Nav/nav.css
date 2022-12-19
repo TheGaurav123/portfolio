@@ -1,0 +1,55 @@
+.nav-container{
+    background-color: var(--headerBackground);
+    box-shadow: rgba(0, 0, 0, 0.403) 0px 0px 10px;
+}
+
+
+.nav{
+z-index: 1;
+width: 100vw;
+}
+.hero-heading{
+    color: white;
+    font-family: 'Rochester', cursive;
+    font-size: 36px;
+    text-decoration: none;
+}
+
+
+.hero-heading:hover{
+    color: white;
+}
+
+.navLabel{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.8125rem;
+    cursor: pointer;
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.navLabel:hover, .navLabel:active{
+    transition: .3s;
+    border-bottom: .5px solid white;
+    color: white;
+}
+
+.selected{
+    border-bottom: .5px solid white;
+    color: white;
+}
+
+
+.contactBtn{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    padding: .2rem .8rem;
+    padding-top: .3rem;
+    border-radius: 50px;
+    background-color: var(--btnBackground);
+    border: none;
+}

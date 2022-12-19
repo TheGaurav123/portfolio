@@ -1,0 +1,46 @@
+.projectContainer{
+    min-height: 95.5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.projectBox{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.projectBox img{
+    box-shadow: rgba(0, 0, 0, 0.273) -3px 5px 10px;
+    border-radius: 10px;
+    /* width: 27vw; */
+    /* height: 34vh; */
+    opacity: .9;
+}
+
+.projectBox img:hover{
+    opacity: 1;
+}
+
+
+.githubIcon{
+    width: 4rem;
+    box-shadow: none !important;
+    cursor: pointer;
+}
+
+
+
+.demoBtn{
+    background-color: var(--btnBackground);
+    color: white;
+    border: none;
+    padding: .5rem 1.5rem;
+    border-radius: 50px;
+}
+
+.demoBtn:hover{
+    background-color: var(--btnHover);
+}

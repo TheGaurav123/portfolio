@@ -1,0 +1,103 @@
+.formDiv{
+    min-height: 90vh !important;
+    background-color: var(--btnBackground);
+}
+
+
+.formHeading{
+    color: white;
+    
+}
+
+
+.formPara{
+    color: white;
+    font-weight: lighter;
+    
+}
+
+
+
+.formInput{
+    border: none;
+    border-bottom: 1px solid #BFBFBF;
+    background-color: transparent;
+    outline: none;
+    color: rgb(98, 98, 98);
+}
+
+.formInput::placeholder{
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.messageContainer{
+    outline: none;
+    border-radius: 8px;
+    color: rgb(98, 98, 98);
+}
+
+.messageContainer::placeholder{
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+
+.sendBtn{
+    padding: .3rem 1.3rem;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--btnBackground);
+    color: white;
+    cursor: pointer;
+}
+
+
+
+.icon{
+    cursor: pointer;
+}
+
+
+
+.contactTitle,.contactPara{
+    color: rgb(67, 67, 67);
+    color: white;
+}
+
+.contactForm{
+    min-height: 73vh ;
+    background-color: rgb(255, 234, 241);
+    background-color: rgba(0, 0, 0, 0.641);
+    color: white;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.borderRight{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.desktopContact{
+    box-shadow: rgba(0, 0, 0, 0.206) -10px 5px 10px;
+    border-radius: 20px;
+
+}
+
+
+.socialIcon{
+    width: 20%;
+    cursor: pointer;
+}
+
+
+
+
+.contact{
+    font-size: .6rem;
+}
+
+.contact img{
+    height: 1.2rem;
+}
