@@ -43,7 +43,7 @@ const Landing = () => {
 
                         {/* Resume Button */}
                         <div className="resumeBtn">
-                            <button className='btnHover'> <a style={{color:'white', textDecoration:'none'}} href={require('../../assets/Resume/resumeLatex.pdf')} download='Resume'>Get Resume</a></button>
+                            <button className='btnHover'> <a style={{color:'white', textDecoration:'none'}} href={require('../../assets/Resume/latexResumeUpdated.pdf')} download='Resume'>Get Resume</a></button>
                         </div>
                     </div>
                 </div>
