@@ -18,6 +18,10 @@
 - Contact Via Message Feature
 - Resume Provided For Professional Works
 
+## Screenshots
+
+![App Screenshot](https://github.com/TheGaurav123/portfolio/blob/main/src/assets/Screenshot%20(30).png?raw=true)
+
 
 ## Demo
 
@@ -50,11 +54,6 @@ Start the server
 ```bash
   npm start
 ```
-
-
-## Screenshots
-
-![App Screenshot](https://github.com/TheGaurav123/portfolio/blob/main/src/assets/Screenshot%20(30).png?raw=true)
 
 
 ## Tech Stack
