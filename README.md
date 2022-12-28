@@ -1,35 +1,65 @@
 
 ![Logo](https://raw.githubusercontent.com/TheGaurav123/portfolio/ea268cb69abbf81e513f1d2c74f4269e79299580/public/apple-touch-icon.png)
-
-
 # Personal Portfolio
 
-A small Gift for my Loved One's ♥ who really wants to Get connected with me personally.
-
-
-
-## Setup
-
-To Setup this project run
-
-```bash
-  npm install
-  npm start
-```
+* A small Gift for my Loved One's ♥ who really wants to Get connected with me personally.
 
 
 ## Authors
 
-- [@TheGaurav](https://github.com/TheGaurav123)
+- [@Akash Gaurav](https://github.com/TheGaurav123)
+
+
+
+
+## Features
+
+- One Page Application
+- Contact Via Message Feature
+- Resume Provided For Professional Works
+
+
+## Demo
+
+https://thegaurav.netlify.app/
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/TheGaurav123/portfolio.git
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+
+## Screenshots
+
+![App Screenshot](https://github.com/TheGaurav123/portfolio/blob/main/src/assets/Screenshot%20(30).png?raw=true)
 
 
 ## Tech Stack
 
-**Client:** React.js, JavaScript, Bootstrap, CSS
+**Client:** React, Bootstap 5, JavaScript, CSS
 
-
-## Live
-
-Checkout : https://thegaurav.netlify.app/
-
+**Design Tool:** Figma, Canva
 
