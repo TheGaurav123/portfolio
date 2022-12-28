@@ -8,9 +8,9 @@ A small Gift for my Loved One's ♥ who really wants to Get connected with me pe
 
 
 
-## Deployment
+## Setup
 
-To deploy this project run
+To Setup this project run
 
 ```bash
   npm install
